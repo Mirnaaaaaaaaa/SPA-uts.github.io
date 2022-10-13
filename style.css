@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mirna {
+    width:100%;
+    height:15%;
+    top: 0;
+    position: fixed;
+    background-color: rgb(181, 156, 182);
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  
+  .bungkus-menu {
+    width:100%;
+    max-width: 70rem;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  
+  .bungkus-menu ul {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style:none;
+    font-weight: 600;
+  }
+  
+  .bungkus-menu ul li:hover {
+    background-color: rgb(91, 60, 121);
+    color:aliceblue;
+  }
+  
+  .foto {
+  
+    height: 100vh;
+    background-color: rgb(209, 180, 209);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .foto h1 {
+    text-align: center;
+    font-family: unset;
+  }
+  .foto p {
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    height: 150px;
+    width: 150px;
+    border: 8px solid rgb(41, 37, 33);
+  }
+
+  .about {
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(209, 180, 209);
+  }
+
+  .about p{
+    color:rgb(78, 63, 63);
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .project {
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(209, 180, 209);
+  }
+
+  .list h1 {
+    margin-top: 150px;
+    color:rgb(78, 63, 63);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .klik {
+    text-decoration: none;
+  }
+
+  .list a {
+    text-decoration: none;
+    color: rgb(112, 106, 106);
+  }
+  .contact {
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(209, 180, 209);
+  }
+  .contact h1 {
+    margin-top: 150px;
+    color:rgb(78, 63, 63);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    padding: 10px;
+    
+    color: rgb(82, 77, 77);
+    text-align: center;
+}
+
+
+
+
+ 
